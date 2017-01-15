@@ -10,4 +10,4 @@ echo "hello $EachLine"
 echo "End of script"
 echo "===================================="
 
-done < ./nameList.txt
+done < nameList.txt
