@@ -1,5 +1,7 @@
 #!/bin/bash
 
+nameFile=$HOME/temp
+
 while read EachLine
 do
 echo $EachLine
@@ -10,4 +12,4 @@ echo "hello $EachLine"
 echo "End of script"
 echo "===================================="
 
-done < nameList.txt
+done < $nameFile/nameList.txt
